@@ -69,19 +69,31 @@ CMS内のいろんな場所から、参照することもできます。
 //---------------------------------------------------------------
 ##+その1. JS CMSの画面構成
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132685735" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132685735" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 >>>
 //
 //---------------------------------------------------------------
 ##+その2. ページを編集する
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132685967" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132685967" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 >>>
 //
 //---------------------------------------------------------------
 ##+その3. ブロックを操作する
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132685965" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132685965" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 >>>
 
 この動画の内容になれてきたら、次は中級編を確認してください。
@@ -100,37 +112,61 @@ CMS内のいろんな場所から、参照することもできます。
 ####ブロックを詳しく
 ##+ブロック編集パネルについて
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132687447" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132687447" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 >>>
 //
 //---------------------------------------------------------------
 ##+見出しブロック・文書ブロックを使う
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132687582" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132687582" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 >>>
 //
 //---------------------------------------------------------------
 ##+フリーレイアウトブロックを使う
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132687560" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132687560" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 >>>
 //
 //---------------------------------------------------------------
 ##+ボタンブロックを使う
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132688004" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132688004" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 >>>
 //
 //---------------------------------------------------------------
 ##+画像ブロック+アップロードを使う
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132688921" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132688921" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 >>>
 //
 //---------------------------------------------------------------
 ##+表組みブロックを使う
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132687965" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132687965" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 >>>
 
 //
@@ -138,13 +174,21 @@ CMS内のいろんな場所から、参照することもできます。
 ####ページ・グループを管理する
 ##+ページを管理する（追加・変更・削除）
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132688269" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132688269" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 >>>
 //
 //---------------------------------------------------------------
 ##+グループを管理する（追加・変更・削除）
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132688541" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132688541" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 >>>
 	]]></text>
 </item>
@@ -160,21 +204,33 @@ CMS内のいろんな場所から、参照することもできます。
 //---------------------------------------------------------------
 ##+YouTubeやGoogleMapなど、外部サービスを埋め込む
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132689239" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132689239" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 HTMLを埋め込むサービスであれば、YouTubeやGoogleMap以外にも、利用できるので、是非覚えてください。
 >>>
 //
 //---------------------------------------------------------------
 ##+グリッド編集で表計算ソフトと連携
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132689312" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132689312" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 グリッド編集は、CMS内でよく使われている編集形式なので、是非おぼえてください。
 >>>
 //
 //---------------------------------------------------------------
 ##+ページを複製する
 <<<
+<<<<<<< HEAD
 <iframe src="https://player.vimeo.com/video/132689052" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+=======
+<iframe src="https://player.vimeo.com/video/132689052" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+>>>>>>> c98f3dfba04cfb7b6dd600ca608bbf57bfbc9c15
 >>>
 	]]></text>
 </item>
