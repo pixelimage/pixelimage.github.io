@@ -20,7 +20,7 @@ var CMS_GuideView = (function(){
 		var tag = "";
 			tag += '<div class="btn_close"></div>';
 			tag += '<div class="btn_zoom"><i class="fa fa-external-link-square "></i>  別ウィンドウで表示</div>'
-			tag += '<div class="_title dragBarArea">JS CMSガイド</div>'
+			tag += '<div class="_title dragBarArea">JS CMS 利用ガイド</div>'
 			tag += '<div class="_navi"><div class="_inner"></div></div>'
 			tag += '<div class="_body">'
 			tag += '	<div class="_inner">'
@@ -29,8 +29,8 @@ var CMS_GuideView = (function(){
 			tag += '	</div>';
 			tag += '</div>';
 		view.html(tag)
-	
-		v.btn_close	= view.find('.btn_close');
+		
+		v.btn_close		= view.find('.btn_close');
 		v.dragBarArea	= view.find('.dragBarArea');
 		v.h1		= view.find('._h1');
 		v.inner		= view.find('._body ._inner');
