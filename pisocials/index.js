@@ -1,5 +1,59 @@
 
 $(function(){
+	var param = {
+		"services": [
+			"facebookShare",
+			"facebookLike",
+			"twitter",
+			"googleplus",
+			"hatena",
+			"pocket"
+		],
+		"url": "http://pixelimage.github.io/pisocials/",
+		"title": "piSocials -- ソーシャルボタン埋め込みjQueryプラグイン",
+		"size": "M",
+		"design": "flat",
+		"round": 0,
+		"color": ""
+	}
+	$("#SocialArea").pisocials(param);	
+	var param = {
+		"services": [
+			"facebookShare",
+			"facebookLike",
+			"twitter",
+			"googleplus",
+			"hatena",
+			"pocket"
+		],
+		"url": "http://pixelimage.github.io/pisocials/",
+		"title": "piSocials -- ソーシャルボタン埋め込みjQueryプラグイン",
+		"size": "L",
+		"design": "official",
+		"round": 0,
+		"color": ""
+	}
+	$("#SocialAreaB").pisocials(param);	
+	
+	// $(".pageLink a").click(function(){ 
+	// 	var id = $(this).attr("href")
+	// 	scrollTo($(id).top)
+	// });
+
+	// function scrollTo(_n){
+	// 	bodyElement().animate({
+	// 		scrollTop:_n
+	// 	},{ duration: 200 });
+	// }
+	// function bodyElement(){
+	// 	return (jQuery.browser.webkit) ? $('body') : $('html');
+	// }
+});
+
+
+
+$(function(){
+	
 	MainController.init();
 	ConditionView.init();
 	CodeView.init();
@@ -316,6 +370,4 @@ var CodeView = (function(){
 		update: update
 	}
 })();
-
-
 

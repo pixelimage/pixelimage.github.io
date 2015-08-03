@@ -1,0 +1,29 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>
+$(function(){
+	$.ajax({
+		scriptCharset	: "utf-8",
+		type		: "GET",
+		url		: "https://cors-anywhere.herokuapp.com/http://widgets.getpocket.com/v1/button?v=1&count=horizontal&url=http://www.yahoo.co.jp",
+		dataType	: "text",
+		success	: function(data) {
+			$(".pocketBtn span").html(parseInt($(data).find('#cnt').text()));
+		}
+	})
+});
+</script>
+<style type="text/css" media="screen">
+body{ padding: 0;margin: 0;}
+.pocketBtn {display: block;width: 80px; text-align: center;background: #D04659; color: #fff; padding: 5px;text-decoration: none;}
+.pocketBtn span{display: block;font-size: 12px;}
+</style>
+</head>
+</body>
+<a href="http://getpocket.com/edit?url=http://www.yahoo.co.jp&title=Yahoo!"
+	target="blank"
+	class="pocketBtn"
+>Pocket<span>-</span></a>
+</body>
+</html>

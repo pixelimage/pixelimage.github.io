@@ -22,30 +22,23 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="dist/pisocials.js"></script>
 	<script type="text/javascript" src="index.js"></script>
-<script>
-$(function(){
-var param = {
-	"services": [
-		"facebookShare",
-		"facebookLike",
-		"twitter",
-		"googleplus",
-		"hatena",
-		"pocket"
-	],
-	"url": "http://pixelimage.github.io/pisocials/",
-	"title": "piSocials -- ソーシャルボタン埋め込みjQueryプラグイン",
-	"size": "M",
-	"design": "flat",
-	"round": 0,
-	"color": ""
-}
-$("#SocialArea").pisocials(param);	
-});
-</script>
 
 </head>
 <body role="document">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">piSocials</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">ホーム</a></li>
+        <li class=""><a href="services.html">ソーシャルサービス一覧</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
 <div class="jumbotron">
   <div class="container">
 	<h1>piSocials<small><small> -- ソーシャルボタン埋め込みjQueryプラグイン</small></small></h1>
@@ -56,19 +49,26 @@ $("#SocialArea").pisocials(param);
 
 <div class="container">
 
-<h3>使い方</h3>
-<ol class="">
-	<li>ライブラリのダウンロード</li>
-	<li>「設定」でカスタマイズを行う</li>
-	<li>「コードの取得」でコードを取得</li>
-	<li>自身のサイトへ組み込み</li>
-</ol>
 
-<h3>ダウンロード</h3>
-	<a href="pisocials.zip" class="btn btn-primary">ダウンロード ( ZIP ) </a>
-	or 
-	<a href="https://github.com/pixelimage/pisocials" target="blank" class="btn btn-primary">ソースコード ( GitHub )</a>
-<h3>設定</h3>
+<div class="row ">
+	<div class="col-md-6">
+		<h2>使い方</h2>
+		<ol class="">
+			<li>ライブラリのダウンロード</li>
+			<li>「設定」でカスタマイズを行う</li>
+			<li>「コードの取得」でコードを取得</li>
+			<li>自身のサイトへ組み込み</li>
+		</ol>
+	</div>
+	<div class="col-md-6">
+		<h2>ダウンロード</h2>
+		<a href="pisocials.zip" class="btn btn-primary">ダウンロード ( ZIP ) </a>
+		or 
+		<a href="https://github.com/pixelimage/pisocials" target="blank" class="btn btn-primary">ソースコード ( GitHub )</a>
+	</div>
+</div>
+
+<h2>設定</h2>
 <div class="panel panel-default">
 	<div class="panel-body">
 		<div id="ConditionView">
@@ -146,7 +146,7 @@ $("#SocialArea").pisocials(param);
 	</div>
 </div>
 
-<h3>コードの取得</h3>
+<h2>コードの取得</h2>
 <div class="panel panel-default">
 	<div class="panel-body">
 		<div id="CodeView">
@@ -162,26 +162,27 @@ $("#SocialArea").pisocials(param);
 	<div class="inner"></div>
 </div>
 
-<h3>ライセンス</h3>
+<h2>ライセンス</h2>
 <ul class="">
 	<li>MIT ライセンスです</li>
 </ul>
 <br>
 
-<h3>更新履歴</h3>
+<h2>更新履歴</h2>
 <ul class="">
 	<li>2015/07/31 公開しました。</li>
 </ul>
 <br>
 
-<h3>開発者情報</h3>
+<h2>開発者情報</h2>
 <ul class="">
 	<li>メール：<a href="mailtp:tanaka@pixelimage.jp">tanaka@pixelimage.jp</a></li>
 	<li>ブログ：<a href="http://www.pixelimage.jp/blog/" target="_blank">http://www.pixelimage.jp/blog/</a></li>
 	<li>Twiiter：<a href="https://twitter.com/pixelimage_jp" target="_blank">https://twitter.com/pixelimage_jp</a></li>
 </ul>
 
-
+<h2>シェア</h2>
+<div id="SocialAreaB"></div>
 
 <textarea style="display:none;" id="BaseCode"><html>
 <head>

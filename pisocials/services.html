@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>piSocials -- ソーシャルボタン埋め込みjQueryプラグイン</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="FacebookやTwitterなどのソーシャル関連ボタンを、まとめて簡単に埋め込むことができる、jQueryプラグインです。">
+	<meta name="keywords" content="Facebook,Twiiter,はてな,ブックマーク,シェアボタン,いいね,">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+	<link href="dist/pisocials.css" rel="stylesheet" type="text/css" />
+	<link href="index.css" rel="stylesheet" type="text/css" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="dist/pisocials.js"></script>
+	<script type="text/javascript" src="services.js"></script
+
+
+</head>
+<body role="document">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">piSocials</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class=""><a href="index.html">ホーム</a></li>
+        <li class="active"><a href="services.html">ソーシャルサービス一覧</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+<div class="container">
+
+
+<h2>ソーシャルサービス一覧</h2>
+
+<p>piSocialsを作成してくなかで、各ソーシャルサービスの埋め込み方法についていろいろ調べたので、このページでは、個別にボタンを埋め込む方法を紹介します。</p>
+<p>それぞれコードを記載してるので、コピペすればそのまま使えます。</p>
+
+	<ul class="pageLink">
+		<li><a href="#Twitter"><i class="fa fa-angle-down "></i> Twitter</a></li>
+		<li><a href="#FacebookLike"><i class="fa fa-angle-down "></i> Facebookいいね</a></li>
+		<li><a href="#FacebookShare"><i class="fa fa-angle-down "></i> Facebookシェア</a></li>
+		<li><a href="#Google"><i class="fa fa-angle-down "></i> Google+</a></li>
+		<li><a href="#Hatena"><i class="fa fa-angle-down "></i> はてなブックマーク</a></li>
+		<li><a href="#Pocket"><i class="fa fa-angle-down "></i> Pocket</a></li>
+	</ul>
+
+<!-- __val__ ---------- ---------- ---------- ---------- -->
+
+<h3 id="Twitter"><img src="images/title_twitter.png" alt="" > Twitter</h3>
+<h4>オフィシャルボタンを埋め込む場合</h4>
+
+<table class="table table-btns">
+	<tr>
+		<td>
+			サイズS<br><br>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.yahoo.co.jp" data-text="Yahoo!" data-lang="ja" data-count="none">ツイート</a>
+		</td>
+		<td>
+			Headタグ内や、Bodyタグ終了直前に記述
+			<script>
+			document.write(getCode(twitterPreloadTag,"pre"));
+			</script>
+			ボタンを配置する箇所で記述
+			<script>
+			document.write(getCode(window.pisocials.SocialServices.twitter.official.S));
+			</script>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			サイズM<br><br>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.yahoo.co.jp" data-text="Yahoo!" data-lang="ja" data-count="horizontal">ツイート</a>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(twitterPreloadTag,"pre"));
+			document.write(getCode(window.pisocials.SocialServices.twitter.official.M));
+			</script>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			サイズL<br><br>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.yahoo.co.jp" data-text="Yahoo!" data-lang="ja" data-count="vertical">ツイート</a>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(twitterPreloadTag,"pre"));
+			document.write(getCode(window.pisocials.SocialServices.twitter.official.L));
+			</script>
+		</td>
+	</tr>
+</table>
+<h4>カスタムデザインで埋め込む場合</h4>
+<table class="table table-btns">
+	<tr>
+		<td>
+			<iframe src="services/twitter.html" style="width:100px;height:60px"></iframe>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(twitterCustomTag ,"pre"));
+			</script>
+		</td>
+	</tr>
+</table>
+
+<!-- __val__ ---------- ---------- ---------- ---------- -->
+
+<h3 id="FacebookLike"><img src="images/title_fb_like.png" alt="" > Facebookいいね</h3>
+<h4>オフィシャルボタンを埋め込む場合</h4>
+<table class="table table-btns">
+	<tr>
+		<td>
+			サイズS<br><br>
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.yahoo.co.jp&send=false&layout=button&width=150&show_faces=false&font&colorscheme=light&action=like&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe>
+<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"></div>
+		</td>
+		<td>
+<script>
+document.write(getCode(window.pisocials.SocialServices.facebookLike.official.S));
+</script>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			サイズM<br><br>
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.yahoo.co.jp&send=false&layout=button_count&width=150&show_faces=false&font&colorscheme=light&action=like&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px;" allowTransparency="true"></iframe>
+		</td>
+		<td>
+<script>
+document.write(getCode(window.pisocials.SocialServices.facebookLike.official.M));
+</script>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			サイズL<br><br>
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.yahoo.co.jp&send=false&layout=box_count&width=70&show_faces=false&font&colorscheme=light&action=like&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:70px; height:61px;" allowTransparency="true"></iframe>
+		</td>
+		<td>
+<script>
+document.write(getCode(window.pisocials.SocialServices.facebookLike.official.L));
+</script>
+		</td>
+	</tr>
+</table>
+
+<!-- __val__ ---------- ---------- ---------- ---------- -->
+
+<h3 id="FacebookShare"><img src="images/title_fb_share.png" alt="" > Facebookシェア</h3>
+<h4>カスタムデザインで埋め込む場合</h4>
+<table class="table table-btns">
+	<tr>
+		<td>
+			<iframe src="services/facebookshare.html" style="width:100px;height:60px"></iframe>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(facebookCustomTag ,"pre"));
+			</script>
+		</td>
+	</tr>
+</table>
+
+<!-- __val__ ---------- ---------- ---------- ---------- -->
+
+<h3 class="Google"><img src="images/title_google.png" alt="" > Google+</h3>
+<h4>オフィシャルボタンを埋め込む場合</h4>
+<table class="table table-btns">
+	<tr>
+		<td>
+			サイズS<br><br>
+			<div class="g-plusone" data-href="http://www.yahoo.co.jp" data-size="medium" data-annotation="none"></div>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(googlePreloadTag,"pre"));
+			</script>
+			<script>
+			document.write(getCode(window.pisocials.SocialServices.googleplus.official.S));
+			</script>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			サイズM<br><br>
+			<div class="g-plusone" data-href="http://www.yahoo.co.jp" data-size="medium"></div>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(googlePreloadTag,"pre"));
+			</script>
+			<script>
+			document.write(getCode(window.pisocials.SocialServices.googleplus.official.M));
+			</script>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			サイズL<br><br>
+			<div class="g-plusone" data-href="http://www.yahoo.co.jp" data-size="tall"></div>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(googlePreloadTag,"pre"));
+			</script>
+			<script>
+			document.write(getCode(window.pisocials.SocialServices.googleplus.official.L));
+			</script>
+		</td>
+	</tr>
+</table>
+<h4>カスタムデザインで埋め込む場合</h4>
+<table class="table table-btns">
+	<tr>
+		<td>
+			<iframe src="services/google.html" style="width:100px;height:60px"></iframe>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(googleCustomTag ,"pre"));
+			</script>
+		</td>
+	</tr>
+</table>
+
+<!-- __val__ ---------- ---------- ---------- ---------- -->
+
+<h3 id="Hatena"><img src="images/title_hatena.png" alt="" > はてなブックマーク</h3>
+<h4>オフィシャルボタンを埋め込む場合</h4>
+<table class="table table-btns">
+	<tr>
+		<td>
+			サイズS<br><br>
+			<a href="http://b.hatena.ne.jp/entry/http://www.yahoo.co.jp" class="hatena-bookmark-button" data-hatena-bookmark-title="Yahoo!" data-hatena-bookmark-layout="standard-noballoon" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(window.pisocials.SocialServices.hatena.official.S));
+			</script>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			サイズM<br><br>
+			<a href="http://b.hatena.ne.jp/entry/http://www.yahoo.co.jp" class="hatena-bookmark-button" data-hatena-bookmark-title="Yahoo!" data-hatena-bookmark-layout="standard-balloon" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(window.pisocials.SocialServices.hatena.official.M));
+			</script>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			サイズL<br><br>
+			<a href="http://b.hatena.ne.jp/entry/http://www.yahoo.co.jp" class="hatena-bookmark-button" data-hatena-bookmark-title="Yahoo!" data-hatena-bookmark-layout="vertical-balloon" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(window.pisocials.SocialServices.hatena.official.L));
+			</script>
+		</td>
+	</tr>
+</table>
+<h4>カスタムデザインで埋め込む場合</h4>
+<table class="table table-btns">
+	<tr>
+		<td>
+			<iframe src="services/hatena.html" style="width:100px;height:60px"></iframe>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(hatenaCustomTag ,"pre"));
+			</script>
+		</td>
+	</tr>
+</table>
+
+<!-- __val__ ---------- ---------- ---------- ---------- -->
+
+<h3 id="Pocket"><img src="images/title_pocket.png" alt="" > Pocketボタン</h3>
+<h4>オフィシャルボタンを埋め込む場合</h4>
+<table class="table table-btns">
+	<tr>
+		<td>
+			サイズS<br><br>
+			<a data-pocket-label="pocket" data-pocket-count="none" data-save-url="http://www.yahoo.co.jp" class="pocket-btn" data-lang="en"></a>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(pocketPreloadTag,"pre"));
+			</script>
+			<script>
+			document.write(getCode(window.pisocials.SocialServices.pocket.official.S));
+			</script>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			サイズM<br><br>
+			<a data-pocket-label="pocket" data-pocket-count="horizontal" data-save-url="http://www.yahoo.co.jp" class="pocket-btn" data-lang="en"></a>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(pocketPreloadTag,"pre"));
+			</script>
+			<script>
+			document.write(getCode(window.pisocials.SocialServices.pocket.official.M));
+			</script>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			サイズL<br><br>
+			<a data-pocket-label="pocket" data-pocket-count="vertical" data-save-url="http://www.yahoo.co.jp" class="pocket-btn" data-lang="en"></a>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(pocketPreloadTag,"pre"));
+			</script>
+			<script>
+			document.write(getCode(window.pisocials.SocialServices.pocket.official.L));
+			</script>
+		</td>
+	</tr>
+</table>
+<h4>カスタムデザインで埋め込む場合</h4>
+<table class="table table-btns">
+	<tr>
+		<td>
+			<iframe src="services/pocket.html" style="width:100px;height:60px"></iframe>
+		</td>
+		<td>
+			<script>
+			document.write(getCode(pocketCustomTag ,"pre"));
+			</script>
+		</td>
+	</tr>
+</table>
+
+
+<h2>シェア</h2>
+<div id="SocialAreaB"></div>
+
+</div>
+
+<script>
+
+!function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	var p = /^http:/.test(d.location) ? 'http' : 'https';
+	if (!d.getElementById(id)) {
+		js = d.createElement(s);
+		js.id = id;
+		js.src = p + '://platform.twitter.com/widgets.js';
+		fjs.parentNode.insertBefore(js, fjs);
+	}
+}(document, 'script', 'twitter-wjs');
+
+
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+po.src = 'https://apis.google.com/js/plusone.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+
+! function(d, i) {
+	if (!d.getElementById(i)) {
+		var j = d.createElement('script');
+		j.id = i;
+		j.src = 'https://widgets.getpocket.com/v1/j/btn.js?v=1';
+		d.body.appendChild(j);
+	}
+}(document, 'pocket-btn-js');
+</script>
+	
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>
+$(function(){
+	$.ajax({
+		scriptCharset	: "utf-8",
+		type		: "GET",
+		url		: "http://graph.facebook.com/?id=http://www.yahoo.co.jp",
+		dataType	: "jsonp",
+		success	: function(data) {
+			$(".facebookBtn span").html(data.shares);
+		}
+	})
+});
+</script>
+<style type="text/css" media="screen">
+body{ padding: 0;margin: 0;}
+.facebookBtn {display: block;width: 80px; text-align: center;background: #3b5998; color: #fff; padding: 5px;text-decoration: none;}
+.facebookBtn span{display: block;font-size: 12px;}
+</style>
+</head>
+</body>
+<a href="https://facebook.com/sharer/sharer.php?u=http://www.yahoo.co.jp"
+	target="blank"
+	class="facebookBtn"
+>シェア<span>-</span></a>
+</body>
+</html>

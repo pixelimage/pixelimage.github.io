@@ -1,0 +1,29 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>
+$(function(){
+	$.ajax({
+		scriptCharset	: "utf-8",
+		type		: "GET",
+		url		: "https://cors-anywhere.herokuapp.com/https://plusone.google.com/_/+1/fastbutton?url=http://www.yahoo.co.jp",
+		dataType	: "text",
+		success	: function(data) {
+			$(".googleBtn span").html(parseInt((data.match(/\{c: ([\d]+)/) || [])[1]));
+		}
+	})
+});
+</script>
+<style type="text/css" media="screen">
+body{ padding: 0;margin: 0;}
+.googleBtn {display: block;width: 80px; text-align: center;background: #dd4b39; color: #fff; padding: 5px;text-decoration: none;}
+.googleBtn span{display: block;font-size: 12px;}
+</style>
+</head>
+</body>
+<a href="https://plus.google.com/share?url=http://www.yahoo.co.jp"
+	target="blank"
+	class="googleBtn"
+>g+<span>-</span></a>
+</body>
+</html>
