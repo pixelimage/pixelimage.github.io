@@ -70,6 +70,13 @@ h4{
 	color: #fff;
 	text-shadow:none;
 }
+.form-control.in_url,
+.form-control.in_title{
+	font-size: 24px;
+	background: #ffd;
+	padding: 20px 5px;
+}
+
 #PreView {
 	position: fixed;
 	bottom: 0px;
