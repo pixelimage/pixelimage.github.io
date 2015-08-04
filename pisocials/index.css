@@ -74,7 +74,8 @@ h4{
 .form-control.in_title{
 	font-size: 24px;
 	background: #ffd;
-	padding: 20px 5px;
+	padding: 5px 5px ;
+	height: auto;
 }
 
 #PreView {
