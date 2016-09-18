@@ -1,0 +1,51 @@
+
+
+/* リセットCSS */
+
+body ,h1, h2, h3, h4, h5, h6, p, ol, ul, li, blockquote, pre, a {
+	font-family:"メイリオ", Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	margin: 0;
+	padding: 0;
+	font-size:100%;
+	line-height: inherit;
+}
+body { -webkit-text-size-adjust: 100%; line-height: 1;}
+ol, ul { list-style: none;}
+table { border-collapse: collapse; border-spacing: 0;}
+th, td { vertical-align: top; text-align:left; font-weight: normal;}
+img { border: 0; vertical-align: bottom;}
+a { text-decoration: none; }
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
+
+
+/* ---------- ---------- ---------- */
+
+input { font-size: 18px; background: #ffe; padding: 5px; border: 1px solid #ddd; border-top:2px solid #ccc;}
+ select { font-size: 18px;}
+body {padding: 30px;}
+
+h1{font-size:24px;}
+p{margin: 1em 0;font-size:16px;line-height: 1.8;}
+
+
+/* ---------- ---------- ---------- */
+
+#FontList{padding: 10px;}
+
+#FontList .forms {}
+#FontList .forms th {font-size:12px;color: #888;padding: 5px;}
+#FontList .forms td{padding: 5px;}
+#FontList .forms ._in_search{font-size:14px;width: 200px;}
+#FontList .forms ._in_word{font-size:24px;width: 800px;}
+#FontList .forms ._in_size{font-size:14px;width: 50px;}
+
+#FontList .previewList {}
+#FontList .previewList .item{border-top: 1px solid #eee;padding: 5px;}
+#FontList .previewList .item .id{font-size:12px;color: #ccc;background: #888;padding: 2px 5px;vertical-align: middle;}
+#FontList .previewList .item .name{font-size:12px;color: #888;vertical-align: middle;}
+
+#FontList .previewList table{margin-top: 20px;}
+#FontList .previewList th{font-size:12px;color: #ccc;background: #888;padding: 10px 5px;}
+#FontList .previewList td{padding: 8px;}
+#FontList .previewList td b{background: #ff0;color: #000;}
+

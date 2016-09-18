@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="" />
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/libs.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/state.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/TagsView.js"></script>
+<script type="text/javascript" src="js/CSSListView.js"></script>
+<script type="text/javascript" src="js/CodeView.js"></script>
+<script type="text/javascript" src="js/StyleSelectView.js"></script>
+<script type="text/javascript" src="js/FaIconList.js"></script>
+
+<link href="colorpicker/css/colorpicker.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="colorpicker/js/colorpicker.js"></script>
+</head>
+<body>
+<div class="wapper">
+<div class="headerArea">
+	<h1>JS CMS CSSデザインライブラリ</h1>
+</div>
+<div class="sideArea">
+	<div class="area_inner">
+		<div id="TagsView"></div>
+	</div>
+</div>
+
+<div class="bodyArea">
+	<div id="StyleSelectView">
+		<div class="m">余白・マージン</div>
+		<div class="t spaceSelector">
+			<div class="selects">
+				<div class="item" data-id="s">S</div>
+				<div class="item current" data-id="m">M</div>
+				<div class="item" data-id="l">L</div>
+			</div>
+		</div>
+		<div class="m">文字サイズ</div>
+		<div class="t fontSizeSelector">
+			<div class="selects">
+				<div class="item" data-id="ss">SS</div>
+				<div class="item" data-id="s">S</div>
+				<div class="item current" data-id="m">M</div>
+				<div class="item" data-id="l">L</div>
+				<div class="item" data-id="ll">LL</div>
+			</div>
+		</div>
+		<div class="m">色</div>
+		<div class="t">
+		<table class="layout">
+			<tr>
+				<td>
+					メインカラー<div class="colorSelector colorSelector1"><div></div></div>
+				</td>
+				<!-- td>
+					サブカラー<div class="colorSelector colorSelector2"><div></div></div>
+				</td -->
+				<!-- td>
+					文字色<div class="colorSelector colorSelector3"><div></div></div>
+				</td -->
+			</tr>
+		</table>
+
+		</div>
+		<div class="m">角丸</div>
+		<div class="t roundSelector">
+			<div class="selects">
+				<div class="item current" data-id="0">なし</div>
+				<div class="item" data-id="5">5px</div>
+				<div class="item" data-id="10">10px</div>
+				<div class="item" data-id="20">20px</div>
+				<div class="item" data-id="40">40px</div>
+			</div>
+		</div>
+		<div class="m">アイコン</div>
+		<div class="t">
+			<div class="btn btn_icon_open">アイコン追加</div>
+			<div class="btn btn_icon_close">削除</div>
+			<div class="mt5">
+				アイコンカラー
+				<div class="colorSelector colorSelectorIcon"><div></div></div>
+			</div>
+			<div class="iconColorSelector">
+				<div class="selects">
+					<div class="item" data-id="ss">SS</div>
+					<div class="item" data-id="s">S</div>
+					<div class="item" data-id="m">M</div>
+					<div class="item" data-id="l">L</div>
+					<div class="item" data-id="ll">LL</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="mainArea">
+		<div class="cssListView">
+			<div class="html"></div>
+			<div class="css"></div>
+		</div>
+	</div>
+</div>
+
+<div id="CodeViewBG"></div>
+<div id="CodeView">
+	<div class="btn_close"><i class="fa fa-times "></i> </div>
+	<p class="title">CSSコードコピー</p>
+	<table class="layout">
+		<tr>
+			<td>クラス　：</td>
+			<td><input type="text" class="className" value=""></td>
+		</tr>
+		<tr>
+			<td>ラベル名：</td>
+			<td><input type="text" class="labelName" value=""></td>
+		</tr>
+	</table>
+	<div class="view_inner">
+		<textarea wrap="off" onclick="this.select()"></textarea>
+	</div>
+	<p class="text">上記のCSSコードをコピーして、CSSファイルへペーストしてください。</p>
+</div>
+
+
+
+<div id="FaIconList">
+	<!-- div class="btn-close"><svg viewBox="0 0 192 512" height="100%" width="100%"><path d="M180 160l12 12-84 84 84 84-12 12-84-84-84 84-12-12 84-84-84-84 12-12 84 84z"></path></svg></div-->
+	<div class="bg"></div>
+	<div class="inner">
+		<div class="head">
+			<p class="title">アイコン一覧</p>
+		</div>
+		<div class="body">
+			<div class="replaceArea"></div>
+		</div>
+		<div class="foot">
+			<div class="btn_close">閉じる</div>
+		</div>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
