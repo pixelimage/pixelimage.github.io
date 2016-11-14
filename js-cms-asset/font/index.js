@@ -1,5 +1,7 @@
 
 $(function(){
+	var so = new SWFObject("fontList.swf", "mymovie", "100", "10", "10", "#eee");
+		so.write("flashcontent");
 	setTimeout(function(){
 		FontList.init();
 	},500);
@@ -17,8 +19,18 @@ var FontList = (function(){
 	function init(){
 		view = $('#FontList');
 		v.list = $('.previewList');
+
+		try{
+			getFont();
+		}catch( e ){
+			setTimeout(function(){
+				getFont()
+			},500);	
+		}
+	}
+	
+	function getFont(){
 		fontList = getFontList();
-		
 		initInput()
 		// createList();
 		updateList();
@@ -34,6 +46,10 @@ var FontList = (function(){
 		})
 		v.in.change(function(){
 			updateList();
+		})
+		view.on("click",".item",function(){
+			var name = $(this).data("name");
+			prompt("コピーしてください",name);
 		})
 	}
 	
@@ -65,8 +81,6 @@ var FontList = (function(){
 			var ss_ = id.toLowerCase();
 			if(ss_.indexOf(in_search) != -1){
 				var style = 'font-family:'+id+';font-size:'+in_size+'px;'
-				tag += '<tr class="item">'
-				tag += '	<td class="id">' +(i+1) + '</td>'
 				var fontvf = (function(_key,_fontID){ 
 					var st = ss_.indexOf(_key);
 					var font = _key;
@@ -76,6 +90,8 @@ var FontList = (function(){
 						fs[2] = _fontID.substr(st+font.length,_fontID.length);
 					return fs[0] +'<b>'+ fs[1] +'</b>'+ fs[2];
 				})(in_search,id);
+				tag += '<tr class="item" data-name="'+id+'">'
+				tag += '	<td class="id">' +(i+1) + '</td>'
 				tag += '	<td class="name">' + fontvf + '</td>'
 				
 				tag += '	<td class="preview" style="'+style+'">' + in_word + '</td>'

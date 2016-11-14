@@ -3,8 +3,12 @@ JS CMSアセット
 
 __memo.txt
 
+
 #CSS
-css/index.html
+http://pixelimage.github.io/js-cms-asset/css/
+http://192.168.1.23:1000/10_pi/github/js-cms-asset/css/
+//
+!!css/index.html
 css/css/index.css
 #CSS/JS
 css/js/CodeView.js
@@ -19,6 +23,9 @@ css/js/TagsView.js
 
 
 #SVG
+http://pixelimage.github.io/js-cms-asset/svg/
+http://192.168.1.23:1000/10_pi/github/js-cms-asset/svg/
+//
 !!svg/index.html
 svg/libs.js
 svg/index.js
@@ -26,7 +33,10 @@ svg/index.css
 svg/list.xml
 
 #Font
+http://pixelimage.github.io/js-cms-asset/font/
+http://192.168.1.23:1000/10_pi/github/js-cms-asset/font/
+//
+!!font/index.html
 font/index.css
-font/index.html
 font/index.js
 

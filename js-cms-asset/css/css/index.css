@@ -1,21 +1,8 @@
-
 /* リセットCSS */
 
-body ,h1, h2, h3, h4, h5, h6, p, ol, ul, li, blockquote, pre, a,div {
-	font-family:"メイリオ", Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
-	margin: 0;
-	padding: 0;
-	font-size:100%;
-	line-height: inherit;
-	box-sizing: border-box;
-}
-body {
-	-webkit-text-size-adjust: 100%;
-	line-height: 1;
-	font-size:14px;
-	background: #dbe1eb;
-	background: #eee;
-}
+body ,h1, h2, h3, h4, h5, h6, p, ol, ul, li, blockquote, pre, a,div { font-family: Helvetica , Arial , Verdana , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "メイリオ" , Meiryo , sans-serif; margin: 0; padding: 0; font-size:100%; line-height: inherit; box-sizing: border-box;}
+body { -webkit-text-size-adjust: 100%; line-height: 1; font-size:14px; background: #f7f7f7;}
+
 ol, ul { list-style: none;}
 table { border-collapse: collapse; border-spacing: 0;}
 th, td { vertical-align: top; text-align:left; font-weight: normal;}
@@ -24,28 +11,22 @@ a { text-decoration: none; }
 .clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
 
 em { font-size:70%; background:#888; background:rgba(0,0,0,0.7); color: #fff; padding: 0.3em 0.4em 0.2em 0.4em ; border-radius:2px; display: inline-block; vertical-align: middle;}
+p{margin:0.5em 0 1em 0;line-height: 1.8;}
+input,textarea { border: 1px solid #d1d9e6; border-bottom: none; border-right: none; padding:4px 4px 2px 2px; background: #ffe; margin: 0; border-radius: 3px; box-shadow: inset 0 0 1px rgba(0,0,0,0.1); box-sizing: border-box; font-size:18px;}
 
-input,textarea {
-	border: 1px solid #d1d9e6;
-	border-bottom: none;
-	border-right: none;
-	padding:4px 4px 2px 2px;
-	background: #ffe;
-	margin: 0;
-	border-radius: 3px;
-	box-shadow: inset 0 0 1px rgba(0,0,0,0.1);
-	box-sizing: border-box;
-	font-size:18px;
-}
+.wapper {}
+.headerArea { position: fixed; top: 0px; left: 0px; right: 0px; height: 60px; background: #4a669f; color: #fff; font-size:14px; padding: 30px 0 0 20px; z-index: 10;}
+.headerArea h1{font-weight: normal;}
 
+.tabs { position: absolute; top: 20px; left: 250px; }
+.tabs .tab { float: left; color: #fff; font-size:14px; padding: 16px 50px 10px 50px; background: rgba(255,255,255,0.1); margin: 0 5px 0 0; cursor: pointer;}
+.tabs .tab:hover { opacity: 0.9;}
+.tabs .tab.current { background: #f7f7f7; color: #4a669f;}
+.tabs .tab.current:hover { opacity: 1;}
 
 /* ---------- ---------- ---------- */
 
-.wapper {display: none;}
-
-.headerArea { position: fixed; top: 0px; left: 0px; right: 0px; height: 50px; background: #4a669f; color: #fff; font-size:14px; padding: 20px 0 0 20px; z-index: 10;box-shadow:0px 0px 5px rgba(0,0,0,0.4);}
-
-.mainArea { margin: 50px 270px 100px 230px;}
+.mainArea { margin: 60px 270px 100px 230px;}
 
 .colorpicker {z-index: 110;}
 
@@ -57,7 +38,7 @@ input,textarea {
 
 .sideArea {
 	position: fixed;
-	top: 50px;
+	top: 60px;
 	left: 0;
 	width: 200px;
 	bottom:0;
@@ -85,7 +66,13 @@ input,textarea {
 
 .cssListView { padding: 40px 0 20px 0;}
 .cssListView .tagName { font-size:24px; color: #4a669f; padding: 0 0 10px 0; margin: 0 0 10px 0; font-weight: bold;}
-.cssListView .block { margin: 10px 0 20px 0; padding: 10px 20px; background: #fff; box-shadow:0px 0px 5px rgba(0,0,0,0.1); border-radius:5px;}
+.cssListView .block {
+	margin: 10px 0 20px 0;
+	padding: 10px 20px;
+	background: #fff;
+	box-shadow:0px 0px 5px rgba(0,0,0,0.1);
+	border-radius:5px;
+}
 .cssListView .title { font-size:16px; color: #4a669f; font-weight: bold;}
 .cssListView .design_set { position: relative; width: 680px;}
 .cssListView .design_set .design { width: 560px;}
@@ -106,7 +93,7 @@ input,textarea {
 
 /* ! ---------- StyleSelectView ---------- ---------- ---------- ---------- */
 
-#StyleSelectView { position: fixed; top: 50px; bottom: 0px; right:0; width: 250px; background: #333; color: #999; padding: 10px; z-index: 100;}
+#StyleSelectView { position: fixed; top: 60px; bottom: 0px; right:0; width: 250px; background: #333; color: #999; padding: 10px; z-index: 100;}
 #StyleSelectView { font-size:12px;}
 #StyleSelectView .row {}
 #StyleSelectView .m { margin: 20px 0 5px 0; }

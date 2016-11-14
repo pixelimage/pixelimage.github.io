@@ -59,8 +59,6 @@ $(function(){
 		State.iconColor = '#' + _hex;
 		CSSListView.update();
 	});
-		
-	$(".wapper").delay(400).fadeIn();
 
 });
 

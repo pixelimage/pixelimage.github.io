@@ -1,21 +1,35 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="">
-<meta name="keywords" content="">
+<meta charset="utf-8">
+<title>CSSデザインライブラリ</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="" />
 
-<title></title>
 <link href="index.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="index.js"></script>
 
 </head>
 <body>
+<div class="wapper">
+<div class="headerArea">
+	<h1>CMSデザインライブラリ</h1>
+	<div class="tabs">
+		<a href="../css/" class="tab ">ブロック用CSS</a>
+		<a href="../svg/" class="tab current">SVGアイコン</a>
+		<a href="../font/" class="tab">フォント一覧</a>
+	</div>
+</div>
+<div class="mainArea">
+	<p>アイコンをクリックすると、SVGデータが取得できます。</p>
+	<div>絞込：<input class="in_search" list="svgList"></div>
+	<div class="items"></div>
 	
-<div>絞込：<input class="in_search" list="svgList"></div>
-<div class="items"></div>
+	<div class="candidateList"></div>
+</div>
 
-<div class="candidateList"></div>
+</div>
 </body>
 </html>
