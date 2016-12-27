@@ -62,5 +62,9 @@ $(function(){
 	//ページ内リンクのスムーススクロール設定
 	$.cms_pagelink({offset:-50});
 
+	//ソーシャル
+	if(window.location.href.indexOf("pixelimage") != -1){
+		$(".cms-socials").cms_socials();
+	}
 });
 
