@@ -15,9 +15,15 @@
 body{letter-spacing:0.05em;}
 
 #SocialArea{
+<<<<<<< HEAD
 margin: 1em auto;padding: 1em;width:620px;
 }
 
 
 
 
+=======
+text-align:center;  
+}
+
+>>>>>>> 167166c83f7bd776c9e302ff045de7a9b660c6e6
