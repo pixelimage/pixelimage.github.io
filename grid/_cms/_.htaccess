@@ -1,0 +1,29 @@
+
+# BEGIN JSCMS
+SiteGuard_User_ExcludeSig xss-tag-1
+SiteGuard_User_ExcludeSig xss-tag-8
+SiteGuard_User_ExcludeSig xss-tag-filter
+SiteGuard_User_ExcludeSig xss-document-3
+SiteGuard_User_ExcludeSig xss-document-5
+SiteGuard_User_ExcludeSig xss-document-7
+SiteGuard_User_ExcludeSig xss-document-11
+SiteGuard_User_ExcludeSig xss-document-15
+SiteGuard_User_ExcludeSig xss-document-17
+SiteGuard_User_ExcludeSig xss-document-18
+SiteGuard_User_ExcludeSig xss-document-19
+SiteGuard_User_ExcludeSig xss-document-21
+SiteGuard_User_ExcludeSig xss-document-26
+SiteGuard_User_ExcludeSig xss-try-4
+SiteGuard_User_ExcludeSig xss-try-12
+SiteGuard_User_ExcludeSig traversal-1
+SiteGuard_User_ExcludeSig traversal-14
+SiteGuard_User_ExcludeSig sqlinj-10
+SiteGuard_User_ExcludeSig sqlinj-13
+SiteGuard_User_ExcludeSig sqlinj-15
+SiteGuard_User_ExcludeSig sqlinj-19
+SiteGuard_User_ExcludeSig sqlinj-21
+SiteGuard_User_ExcludeSig sqlinj-55
+SiteGuard_User_ExcludeSig sqlinj-57
+SiteGuard_User_ExcludeSig sqlinj-63
+SiteGuard_User_ExcludeSig sqlinj-97
+# END JSCMS

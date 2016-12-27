@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="description" content="サンプルの文書ですので、ご注意くださいサンプルの文書ですので、ご注意ください">
+<meta name="keywords" content="サンプルの文書ですので、ご注意ください">
+<title>株式会社サンプルサイト | HOME</title>
+
+<!-- cms css & javascript -->
+<link rel="stylesheet" href="../html/css/site.css">
+<link rel="stylesheet" href="../html/css/cms.css">
+<link rel="stylesheet" href="../html/css/free.css">
+<script type="text/javascript" src="../html/js/libs.js"></script>
+<script type="text/javascript" src="../html/js/site.js"></script>
+<!-- /cms css & javascript -->
+
+</head>
+<body id="index" class="gloup_">
+<div id="Wapper">
+<!-- Header -->
+<div id="HeaderArea"></div>
+<!-- /Header -->
+
+
+<!-- Body -->
+<div id="BodyArea" class="clearfix">
+	<div id="ContentsArea">
+	
+<div class="cms-margin default" style="height:50px"></div>
+<iframe src="https://player.vimeo.com/video/196451414" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="cms-margin default" style="height:50px"></div>
+<div style="" class="cms-layout _cms-p20">
+		<h2 class="cms-h default line-b">グリッドプレビューとは</h2>
+		<h3 class="cms-h default ">サイト制作者向けプレビューツールです</h3>
+	<p class="cms-p default ">サイト構築において、ブラウザでのページ確認作業を効率的に、俯瞰的に行えるツールです。<br>
+	いちどに、複数のページをプレビューできます。<br>
+	<br>
+	</p>
+</div>
+<div class="cms-margin default" style="height:100px"></div>
+<div style="" class="cms-layout _cms-p20">
+		<h2 class="cms-h default line-b">注意点</h2>
+	<p class="cms-p default ">基本的に、サイト制作者が、ローカル開発環境のウェブサーバーで表示する目的でつくられています。<br>
+	<br>
+	公開されたウェブサーバーでも使用できますが、一度に複数のページを表示するので、ウェブサーバーへ大量のリクエストを短時間に送信することになるので、そこらへんを理解したうえで、使用しえください。<br>
+	<br>
+	設定によっては、外部ページを指定することもできますが、基本的に、自分の管理しているサイト・ページに対して、利用してください。<br>
+	</p>
+</div>
+<div class="cms-margin default" style="height:100px"></div>
+<div style="" class="cms-layout _cms-p20">
+		<h2 class="cms-h default line-b">ダウンロード</h2>
+<div class="cms-btns clearfix yoko text-center">
+<ul>
+	<li><a href="#" class="cms-btn-text-box cms-btn-round-0 cms-btn-size-ll ">ダウンロード</a></li>
+	<li><a href="#" class="cms-btn-text-box cms-btn-round-0 cms-btn-size-ll ">ダウンロード</a></li>
+</ul>
+</div>
+</div>
+<div class="cms-margin default" style="height:100px"></div>
+<div style="" class="cms-layout _cms-p20">
+		<h2 class="cms-h default line-b">導入方法</h2>
+	<p class="cms-p default ">グリッドプレビューは、簡単に設定できます。データをダウンロードして、構築中のサイトのルート階層などに、配置してください。PHPなどの動的ページはありません。どんなウェブサーバーでも動作します。<br>
+	公開中のウェブサーバであれ、ローカル環境のウェブサーバーであれ、動作します。<br>
+	<br>
+	サイトごとに、グリッドプレビューを毎回導入する感じで利用します。</p>
+		<h3 class="cms-h default ">動作ブラウザ</h3>
+	<p class="cms-p default ">基本的にブラウザに制限はありませんが、動作速度の早いGoogle Chromeがおすすめです。<br>
+	古いIEでは、おそらく動作しなかったり、表示がくずれたりするので、最新バージョンのブラウザを使用してください。</p>
+</div>
+<div class="cms-margin default" style="height:100px"></div>
+<div style="" class="cms-layout _cms-p20">
+		<h2 class="cms-h default line-b">設定方法</h2>
+	<p class="cms-p default ">プレビューするページのリストを設定する必要があります。<br>
+	</p>
+		<h3 class="cms-h default ">grid_sitemap.txt の設定例</h3>
+<div class="cms-code default ">
+<code>../<br>
+<br>
+#ルート<br>
+トップ,index.html<br>
+SITEMAP,sitemap.html<br>
+問い合わせ,contact.html<br>
+<br>
+#会社について<br>
+はじめに,html/company.html<br>
+会社概要,html/company_outline.html<br>
+沿革,html/company_histoty.html<br>
+事務所一覧,html/company_office.html<br>
+<br>
+#お知らせ<br>
+お知らせ一覧,html/news.html<br>
+2015/05/05,html/news_20150505.html<br>
+2015/04/04,html/news_20150404.html<br>
+2015/03/03,html/news_20150303.html<br>
+2015/02/02,html/news_20150202.html<br>
+2015/01/01,html/news_20150101.html<br>
+<br>
+#製品案内<br>
+製品案内,html/products.html<br>
+PRODUCTS AA01,html/products_01.html<br>
+PRODUCTS BB01,html/products_02.html<br>
+PRODUCTS CC01,html/products_03.html<br>
+PRODUCTS DD01,html/products_04.html<br>
+<br>
+#採用情報<br>
+募集要項,html/rec_guideline.html<br>
+福利厚生,html/rec_benefits.html<br>
+よくある質問,html/rec_faq.html<br>
+</code>
+</div>
+</div>
+<div class="cms-margin default" style="height:100px"></div>
+<div style="" class="cms-layout _cms-p20">
+		<h2 class="cms-h default line-b">ライセンス</h2>
+		<h3 class="cms-h default ">オープンソース ( MITライセンス ) です</h3>
+	<p class="cms-p default ">商用利用・非商用利用を問わず、完全に無料で利用できます。</p>
+		<h3 class="cms-h default ">ソースコードの入手</h3>
+	<p class="cms-p default ">将来的には、GitHubなどでの公開 を考えていますが、現時点では、ダウンロードページから取得できるデータが、ソースコードになります。ミニファイ化などの難読処理は行ってないので、そのままソースコードを編集できます。</p>
+		<h3 class="cms-h default ">免責</h3>
+	<p class="cms-p default ">グリッドプレビューを使用することによって生じた損害・トラブル等に関しまして、株式会社ピクセルイメージは一切の賠償責任を負いかねますので、ご了承ください。</p>
+</div>
+<div class="cms-margin default" style="height:100px"></div>
+<div style="" class="cms-layout _cms-p20">
+		<h2 class="cms-h default line-b">開発情報</h2>
+		<h3 class="cms-h default ">開発の経緯</h3>
+	<p class="cms-p default ">個人的なツールとして開発していたもので、2013年ごろから、つくりはじめました。<br>
+	サイト構築業務の中で、少しつづ機能追加、ブラッシュアップして、わりと、いい感じに仕上がってきたので、公開することにしました。</p>
+		<h3 class="cms-h default ">開発者情報</h3>
+	<p class="cms-p default ">大阪北摂のウェブデザイン屋さんであるピクセルイメージが、請負業務の間に開発しています。</p>
+		<h3 class="cms-h default ">質問や問い合わせなどについて</h3>
+	<p class="cms-p default ">不具合や不明点などあれば、 開発者のピクセルイメージ田中 ( <a href="cms@pixelimage.jp">cms@pixelimage.jp</a> ) にメール下さい。<br>
+	使用した感想や、要望などもいただけるとうれしいです。</p>
+</div>
+<div class="cms-margin default" style="height:100px"></div>
+<div style="" class="cms-layout _cms-p20">
+		<h2 class="cms-h default line-b">宣伝</h2>
+		<h3 class="cms-h default ">CMSもつくってます</h3>
+	<p class="cms-p default ">JS CMSという、オープンソースのCMSもつくってます。<br>
+	Webデザイナー向け、完全無料の小〜中規模Webサイト向けCMSです。DBレスなのでFTPでアップするだけで簡単導入でき、 HTMLとCSSのみでカスタマイズ。オープンソース(MIT)なので制限なく自由に利用でき、今すぐ公開できます。<br>
+	グリッドプレビューは、ちょっとしたツールですが、こっちはわりと、本気でつくってるので、よかったら、こっちもチェックしてみてください。</p>
+	<div class="cms-btn big text-center"><a href="http://www.js-cms.jp" target="_blank" class="cms-btn-text-box cms-btn-size-ll ">JS CMS -- 簡単・無料・国産のWebデザイナー向けCMS</a></div></div>
+<div class="cms-margin default" style="height:100px"></div>
+
+
+	</div>
+</div>
+<!-- /Body -->
+<!-- Footer -->
+<div id="Copyright"><p class="cms-p default text-center">© 2016 example company corporation. </p>
+</div>
+<!-- /Footer -->
+</div>
+</body>
+</html>

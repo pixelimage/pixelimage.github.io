@@ -1,0 +1,1801 @@
+{
+	"head": {},
+	"body": {
+		"free": [
+			{
+				"type": "layout.div",
+				"attr": {},
+				"data": [
+					{
+						"type": "tag.margin",
+						"data": "-300px",
+						"attr": {
+							"css": "default",
+							"class": "default"
+						}
+					},
+					{
+						"type": "layout.div",
+						"data": [
+							{
+								"type": "tag.html",
+								"data": "<iframe src=\"https://player.vimeo.com/video/196451414\" width=\"800\" height=\"450\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n",
+								"attr": {
+									"preview": ""
+								}
+							}
+						],
+						"attr": {
+							"class": "default p10 frame",
+							"css": "default p10 frame",
+							"style": "margin:0 -10px 0 -10px;",
+							"narrow": ""
+						},
+						"extra": {
+							"bg": {
+								"img": "",
+								"color": "",
+								"use": false
+							}
+						}
+					},
+					{
+						"type": "tag.margin",
+						"data": "100px",
+						"attr": {
+							"css": "default",
+							"class": "default"
+						}
+					},
+					{
+						"type": "layout.div",
+						"data": [
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h2",
+									"main": {
+										"text": "グリッドプレビューとは",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": " default line-b text-center",
+									"class": " default line-b text-center"
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h3",
+									"main": {
+										"text": "サイト制作者向けプレビューツールです",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default text-center",
+									"class": "default text-center"
+								}
+							},
+							{
+								"type": "layout.cols",
+								"data": [
+									{
+										"type": "layout.div",
+										"attr": {
+											"style": ""
+										},
+										"data": [
+											{
+												"type": "tag.img",
+												"data": {
+													"img": "images/preview.png",
+													"link": null,
+													"isZoom": false,
+													"isLayoutMode": false,
+													"layout": {},
+													"onlyImgTag": false
+												},
+												"extra": {
+													"caption": "",
+													"width": "",
+													"margin": "",
+													"layout_width": ""
+												},
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											}
+										]
+									},
+									{
+										"type": "layout.div",
+										"attr": {
+											"style": ""
+										},
+										"data": [
+											{
+												"type": "tag.p",
+												"data": "ブラウザ画面内に、登録した<strong>複数のHTMLページを縮小</strong>し、<strong>グリッド上にならべて表示</strong>するウェブアプリです。\n\nサイト制作に欠かせない、ブラウザでの表示テストを大幅軽減。<strong>サイト全体を俯瞰</strong>して行えます。",
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											}
+										]
+									}
+								],
+								"attr": {
+									"css": "col-p20",
+									"class": "col-p20"
+								}
+							},
+							{
+								"type": "tag.margin",
+								"data": "50px",
+								"attr": {
+									"css": "default",
+									"class": "default"
+								}
+							},
+							{
+								"type": "layout.cols",
+								"data": [
+									{
+										"type": "layout.div",
+										"attr": {
+											"style": ""
+										},
+										"data": [
+											{
+												"type": "tag.img",
+												"data": {
+													"img": "images/plus.png",
+													"link": null,
+													"isZoom": false,
+													"isLayoutMode": false,
+													"layout": {},
+													"onlyImgTag": false
+												},
+												"extra": {
+													"caption": "",
+													"width": "",
+													"margin": "",
+													"layout_width": ""
+												},
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											}
+										]
+									},
+									{
+										"type": "layout.div",
+										"attr": {
+											"style": ""
+										},
+										"data": [
+											{
+												"type": "tag.heading",
+												"data": {
+													"heading": "h3",
+													"main": {
+														"text": "簡単に導入できます",
+														"link": null
+													},
+													"right": {
+														"text": "",
+														"link": null
+													}
+												},
+												"attr": {
+													"css": "default text-left mt20",
+													"class": "default text-left mt20"
+												}
+											},
+											{
+												"type": "tag.p",
+												"data": "ダウンロード・解凍し、<strong>構築中のサイトにコピーするだけ</strong>です。ウェブサーバーでも、ローカル開発環境でも動作します。\n<strong>DBやPHPは必要なし</strong>。設定ファイルに、ページのファイルパスを登録・保存し、グリッドプレビューのページを開くだけです。",
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											}
+										]
+									}
+								],
+								"attr": {
+									"css": "col-p20",
+									"class": "col-p20"
+								}
+							},
+							{
+								"type": "tag.margin",
+								"data": "50px",
+								"attr": {
+									"css": "default",
+									"class": "default"
+								}
+							},
+							{
+								"type": "layout.cols",
+								"data": [
+									{
+										"type": "layout.div",
+										"attr": {
+											"style": ""
+										},
+										"data": [
+											{
+												"type": "tag.img",
+												"data": {
+													"img": "images/zoom.png",
+													"link": null,
+													"isZoom": false,
+													"isLayoutMode": false,
+													"layout": {},
+													"onlyImgTag": false
+												},
+												"extra": {
+													"caption": "",
+													"width": "",
+													"margin": "",
+													"layout_width": ""
+												},
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											}
+										]
+									},
+									{
+										"type": "layout.div",
+										"attr": {
+											"style": ""
+										},
+										"data": [
+											{
+												"type": "tag.heading",
+												"data": {
+													"heading": "h3",
+													"main": {
+														"text": "自由にプレビューサイズを編集できます",
+														"link": null
+													},
+													"right": {
+														"text": "",
+														"link": null
+													}
+												},
+												"attr": {
+													"css": "default text-left",
+													"class": "default text-left"
+												}
+											},
+											{
+												"type": "tag.p",
+												"data": "プレビューサイズは、<strong>ブラウザ幅と高さ、拡大率</strong>を設定できます。\n<strong>大画面での表示</strong>や、<strong>スマホでの表示</strong>の確認など、簡単に行えます。\nサイズはプリセットで登録されており、ワンクリックで切り替えられます。",
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											}
+										]
+									}
+								],
+								"attr": {
+									"css": "col-p20",
+									"class": "col-p20"
+								}
+							},
+							{
+								"type": "tag.margin",
+								"data": "50px",
+								"attr": {
+									"css": "default",
+									"class": "default"
+								}
+							},
+							{
+								"type": "tag.btn",
+								"data": {
+									"href": "http://192.168.1.23:61220/grid/",
+									"target": "_blank",
+									"attr": "",
+									"text": "<i class=\"fa fa-th \"></i>  動作デモ",
+									"class_": "cms-btn-blue-f  cms-btn-size-ll  ",
+									"image": ""
+								},
+								"attr": {
+									"css": " big text-center",
+									"class": " big text-center"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "※20ページほどのデモ用サイトで、グリッドプレビューを利用した例です。",
+								"attr": {
+									"css": "default  text-center",
+									"class": "default  text-center"
+								}
+							},
+							{
+								"type": "tag.margin",
+								"data": "20px",
+								"attr": {
+									"css": "default",
+									"class": "default"
+								}
+							},
+							{
+								"type": "layout.div",
+								"data": [
+									{
+										"type": "tag.heading",
+										"data": {
+											"heading": "h4",
+											"main": {
+												"text": "注意点",
+												"link": null
+											},
+											"right": {
+												"text": "",
+												"link": null
+											}
+										},
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									},
+									{
+										"type": "tag.p",
+										"data": "基本的に、サイト制作者が、ローカル開発環境や、自身が管理するウェブサーバーで使用する目的でつくられています。\n\nグリッドプレビューは、一度に複数のページを表示するので、ウェブサーバーへ大量のリクエストを短時間に送信することになるので、そこらへんを理解したうえで、使用してください。\n\n設定によっては、外部サイト・ページを指定することもできますが、基本的に、自分の管理しているサイト・ページに対してのみ、利用してください。",
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									}
+								],
+								"attr": {
+									"class": "default p20 glay",
+									"css": "default p20 glay",
+									"style": ""
+								},
+								"extra": {
+									"bg": {
+										"img": "",
+										"color": "",
+										"use": false
+									}
+								}
+							}
+						],
+						"attr": {
+							"class": " _cms-p20",
+							"css": " _cms-p20",
+							"style": "",
+							"narrow": ""
+						},
+						"extra": {
+							"bg": {
+								"img": "",
+								"color": "",
+								"use": false
+							}
+						}
+					},
+					{
+						"type": "tag.margin",
+						"data": "150px",
+						"attr": {
+							"css": "default",
+							"class": "default"
+						}
+					},
+					{
+						"type": "layout.div",
+						"data": [
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h2",
+									"main": {
+										"text": "ダウンロード",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default  line-b  text-center",
+									"class": "default  line-b  text-center"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "以下から、ダウンロードしてください。\n導入手順や設定方法については、ページの下のほうに掲載しています。",
+								"attr": {
+									"css": "default  text-center",
+									"class": "default  text-center"
+								}
+							},
+							{
+								"type": "tag.btn",
+								"data": {
+									"href": "http://192.168.1.23:61220/grid/",
+									"target": "_blank",
+									"attr": "",
+									"text": "<i class=\"fa fa-download \"></i>  ダウンロード",
+									"class_": "cms-btn-blue-f  cms-btn-size-ll  ",
+									"image": ""
+								},
+								"attr": {
+									"css": " big text-center",
+									"class": " big text-center"
+								}
+							},
+							{
+								"type": "tag.margin",
+								"data": "20px",
+								"attr": {
+									"css": "default",
+									"class": "default"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "デモ用のサイトを配置しています。\nはじめてのかたは、こちらもダウンロードして、動作テストしてみてください。",
+								"attr": {
+									"css": "default  text-center",
+									"class": "default  text-center"
+								}
+							},
+							{
+								"type": "tag.btn",
+								"data": {
+									"href": "http://192.168.1.23:61220/grid/",
+									"target": "_blank",
+									"attr": "",
+									"text": "<i class=\"fa fa-download \"></i>  テスト用サイトのダウンロード",
+									"class_": "cms-btn-text-box  cms-btn-size-ll  ",
+									"image": ""
+								},
+								"attr": {
+									"css": " text-center small",
+									"class": " text-center small"
+								}
+							}
+						],
+						"attr": {
+							"class": " _cms-p20",
+							"css": " _cms-p20",
+							"style": "",
+							"narrow": ""
+						},
+						"extra": {
+							"bg": {
+								"img": "",
+								"color": "",
+								"use": false
+							}
+						}
+					},
+					{
+						"type": "tag.margin",
+						"data": "150px",
+						"attr": {
+							"css": "default",
+							"class": "default"
+						}
+					},
+					{
+						"type": "layout.div",
+						"data": [
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h2",
+									"main": {
+										"text": "導入・設定の手順",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default  line-b  text-center",
+									"class": "default  line-b  text-center"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "基本的に、<strong>ウェブ制作者向けのアプリ</strong>なので、ファイルを解凍したり、FTPだったりといった、ウェブ制作の基本知識は必要です。",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h3",
+									"main": {
+										"text": "動作環境",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default black",
+									"class": "default black"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "グリッドプレビューは、HTML,CSS,JSなどの<strong>静的なファイルだけで構成</strong>されており、PHPやDBなどは必要ありません。すべてのウェブサーバーで動作します。\n\nただし、閲覧用ブラウザは、できるだけ最新のものが必要で、<strong>Google Chromeが推奨</strong>です。古いIEでは、おそらく動作しなかったり、表示がくずれたりします。モバイルにも対応していません。",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h4",
+									"main": {
+										"text": "ローカルでうごかす場合",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default line-b",
+									"class": "default line-b"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "PCやMacのローカルで動作させる場合は、ローカル開発環境が必要です。",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h4",
+									"main": {
+										"text": "公開されたウェブサーバーでうごかす場合",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default line-b",
+									"class": "default line-b"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "サーバーへ、FTPでアクセスしアップロードできる必要があります。",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h3",
+									"main": {
+										"text": "<b style=\"color:yellow\">手順.1</b>  導入",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default black",
+									"class": "default black"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "ダウンロード・解凍して、<strong>構築中のサイトのルート階層などに、配置</strong>してください。",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h4",
+									"main": {
+										"text": "グリッドプレビュー配置例",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default line-b",
+									"class": "default line-b"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "初期では、<strong>grid/</strong>というディレクトリ名ですが、サイト関連のファイルと区別したい場合は、<strong>__grid/</strong>などのように、自由にリネームしてください。",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.img",
+								"data": {
+									"img": "images/how2.png",
+									"link": null,
+									"isZoom": false,
+									"isLayoutMode": false,
+									"layout": {},
+									"onlyImgTag": false
+								},
+								"extra": {
+									"caption": "",
+									"width": "",
+									"margin": "",
+									"layout_width": ""
+								},
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h4",
+									"main": {
+										"text": "サイトごとに導入します",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default line-b",
+									"class": "default line-b"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "基本的に、構築中のサイトごとに、グリッドプレビューを毎回導入する感じで利用します。\n複数のサイトを運用している場合は、それぞれのサイトごとに導入してください。\n\nなお、ひとつのサイトで複数のグリッドプレビューを導入することもできます (その場合は、ディレクトリ名を変更して利用)。",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h4",
+									"main": {
+										"text": "削除方法",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default line-b",
+									"class": "default line-b"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "グリッドプレビューを削除したい場合は、単純にディレクトリを削除してください。",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h3",
+									"main": {
+										"text": "<b style=\"color:yellow\">手順.2</b>  設定",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default black",
+									"class": "default black"
+								}
+							},
+							{
+								"type": "layout.cols",
+								"data": [
+									{
+										"type": "layout.div",
+										"attr": {
+											"style": ""
+										},
+										"data": [
+											{
+												"type": "tag.img",
+												"data": {
+													"img": "images/how.png?1",
+													"link": null,
+													"isZoom": false,
+													"isLayoutMode": false,
+													"layout": {},
+													"onlyImgTag": false
+												},
+												"extra": {
+													"caption": "",
+													"width": "",
+													"margin": "",
+													"layout_width": ""
+												},
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											}
+										]
+									},
+									{
+										"type": "layout.div",
+										"attr": {
+											"style": ""
+										},
+										"data": [
+											{
+												"type": "tag.p",
+												"data": "導入した後は、プレビューしたいページの一覧を設定する必要があります。\n<strong>サイトマップデータをテキストエディタで編集・保存</strong>してください。",
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											}
+										]
+									}
+								],
+								"attr": {
+									"css": "col-p40",
+									"class": "col-p40"
+								}
+							},
+							{
+								"type": "tag.margin",
+								"data": "20px",
+								"attr": {
+									"css": "default",
+									"class": "default"
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h4",
+									"main": {
+										"text": "サイトマップデータ<small> ( grid_sitemap.txt ) </small> の設定例",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default line-b",
+									"class": "default line-b"
+								}
+							},
+							{
+								"type": "layout.cols",
+								"data": [
+									{
+										"type": "layout.div",
+										"attr": {
+											"style": ""
+										},
+										"data": [
+											{
+												"type": "tag.img",
+												"data": {
+													"img": "images/setting.png",
+													"link": null,
+													"isZoom": false,
+													"isLayoutMode": false,
+													"layout": {},
+													"onlyImgTag": false
+												},
+												"extra": {
+													"caption": "",
+													"width": "",
+													"margin": "",
+													"layout_width": ""
+												},
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											}
+										]
+									},
+									{
+										"type": "layout.div",
+										"attr": {
+											"style": ""
+										},
+										"data": [
+											{
+												"type": "tag.p",
+												"data": "サイトマップデータは、<strong>グリッドプレビュー独自の書式</strong>にそって記述する必要があります。\n\n以下を参考に、記述してください。\n\n<span class=\"notes\">※メモ帳などでなく、UTF-8の扱えるエディタが必要です。</span>",
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											}
+										]
+									}
+								],
+								"attr": {
+									"css": "col-p40",
+									"class": "col-p40"
+								}
+							},
+							{
+								"type": "tag.margin",
+								"data": "20px",
+								"attr": {
+									"css": "default",
+									"class": "default"
+								}
+							},
+							{
+								"type": "object.table",
+								"data": {
+									"setting": {
+										"texts": {
+											"row1": "",
+											"col1": "1",
+											"wides": "20%,*,*,*,*",
+											"_state": [
+												"row1"
+											]
+										},
+										"grid": []
+									},
+									"table": {
+										"texts": {},
+										"grid": [
+											{
+												"publicData": "1",
+												"c1": "Baseパス",
+												"c2": "{{SE1}}",
+												"_state": [
+													"c1",
+													"c2"
+												]
+											},
+											{
+												"publicData": "1",
+												"c1": "グループ名",
+												"c2": "{{SE2}}",
+												"_state": [
+													"c2"
+												]
+											},
+											{
+												"publicData": "1",
+												"c1": "ページ名、Fileパス",
+												"c2": "{{SE3}}",
+												"_state": [
+													"c1",
+													"c2"
+												]
+											}
+										],
+										"_state": {
+											"currentRow": 2,
+											"currentPage": 0,
+											"fitWide": true,
+											"hideCols": ""
+										}
+									},
+									"cols": {
+										"texts": {
+											"wides": "20%,*,*,*,*"
+										},
+										"grid": []
+									}
+								},
+								"attr": {
+									"css": "w100p gray",
+									"style": "",
+									"class": "w100p gray"
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h3",
+									"main": {
+										"text": "<b style=\"color:yellow\">手順.3</b>  アクセス",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default black",
+									"class": "default black"
+								}
+							},
+							{
+								"type": "layout.cols",
+								"data": [
+									{
+										"type": "layout.div",
+										"attr": {
+											"style": ""
+										},
+										"data": [
+											{
+												"type": "tag.img",
+												"data": {
+													"img": "images/20161223_2345.png",
+													"link": null,
+													"isZoom": false,
+													"isLayoutMode": false,
+													"layout": {},
+													"onlyImgTag": false
+												},
+												"extra": {
+													"caption": "",
+													"width": "",
+													"margin": "",
+													"layout_width": ""
+												},
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											}
+										]
+									},
+									{
+										"type": "layout.div",
+										"attr": {
+											"style": ""
+										},
+										"data": [
+											{
+												"type": "tag.p",
+												"data": "設定が終わったら、<strong>グリッドプレビューにアクセス</strong>してください。\nアドレスは、ローカルの場合は、ローカル開発環境のアドレス(例:192.168.1.20/)と、グリッドプレビューのディレクトリ名を合わせた値になります。",
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											},
+											{
+												"type": "tag.code",
+												"data": "http://192.168.1.20/grid/",
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												},
+												"extra": {
+													"head": "URL例"
+												}
+											}
+										]
+									}
+								],
+								"attr": {
+									"css": "col-p40",
+									"class": "col-p40"
+								}
+							},
+							{
+								"type": "tag.margin",
+								"data": "20px",
+								"attr": {
+									"css": "default",
+									"class": "default"
+								}
+							},
+							{
+								"type": "layout.div",
+								"data": [
+									{
+										"type": "tag.heading",
+										"data": {
+											"heading": "h4",
+											"main": {
+												"text": "注意点",
+												"link": null
+											},
+											"right": {
+												"text": "",
+												"link": null
+											}
+										},
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									},
+									{
+										"type": "tag.p",
+										"data": "グリッドプレビューには、<strong>ログイン機能はありません</strong>。\nグリッドプレビューは、単にページプレビューするだけなので、データ改ざんの可能性はありませんが、公開されたネット上に配置する場合は、その点を理解したうえで、利用してください。\nログイン機能をつけたい場合は、標準認証をかけるか、標準認証のかかったディレクトリに配置してください。",
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									}
+								],
+								"attr": {
+									"class": "default p20 waku",
+									"css": "default p20 waku",
+									"style": ""
+								},
+								"extra": {
+									"bg": {
+										"img": "",
+										"color": "",
+										"use": false
+									}
+								}
+							}
+						],
+						"attr": {
+							"class": " _cms-p20",
+							"css": " _cms-p20",
+							"style": "",
+							"narrow": ""
+						},
+						"extra": {
+							"bg": {
+								"img": "",
+								"color": "",
+								"use": false
+							}
+						}
+					},
+					{
+						"type": "replace.div",
+						"data": [
+							{
+								"type": "tag.p",
+								"attr": {
+									"class": "default",
+									"css": "default"
+								},
+								"data": "<strong>1行目は必ずベースとなるパスを記述</strong>します。\nBaseパスで設定した値は、個々のページのFileパスと組み合わされ、最終的なファイルパス、URLとなります。"
+							},
+							{
+								"type": "tag.code",
+								"data": "../",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								},
+								"extra": {
+									"head": "記述例：相対パス"
+								}
+							},
+							{
+								"type": "tag.code",
+								"data": "/path/to/",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								},
+								"extra": {
+									"head": "記述例：絶対パス"
+								}
+							},
+							{
+								"type": "tag.code",
+								"data": "http://www.your_server.co.jp/path/top/",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								},
+								"extra": {
+									"head": "記述例：URLで記述"
+								}
+							}
+						],
+						"attr": {
+							"class": " _cms_replace",
+							"css": " _cms_replace",
+							"style": "",
+							"replaceID": "SE1",
+							"replaceTitle": "説明を入力"
+						}
+					},
+					{
+						"type": "replace.div",
+						"data": [
+							{
+								"type": "tag.p",
+								"attr": {
+									"class": "default",
+									"css": "default"
+								},
+								"data": "先頭に<strong>#</strong>をつけると、次の行以降のファイルパスを、グループとして扱います。\nグリッドプレビュー画面では、<strong>タブとして表示</strong>されます。\nかならず1つ以上記述し、次の行からは、そのグループに含めたい、Fileパスを記述してください。"
+							},
+							{
+								"type": "tag.code",
+								"data": "#グループ名",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								},
+								"extra": {
+									"head": "記述例"
+								}
+							}
+						],
+						"attr": {
+							"class": " _cms_replace",
+							"css": " _cms_replace",
+							"style": "",
+							"replaceID": "SE2",
+							"replaceTitle": "説明を入力"
+						}
+					},
+					{
+						"type": "replace.div",
+						"data": [
+							{
+								"type": "tag.p",
+								"attr": {
+									"class": "default",
+									"css": "default"
+								},
+								"data": "グリッドプレビューで表示したいページのパスを記述します。\n\nBaseパスが \"<strong>../</strong>\" の場合で、Fileパス ”<strong>test/index.html</strong>” の場合は、”<strong>../test/index.html</strong>”となります。"
+							},
+							{
+								"type": "tag.code",
+								"data": "about/company.html",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								},
+								"extra": {
+									"head": "記述例：Fileパスのみ"
+								}
+							},
+							{
+								"type": "tag.code",
+								"data": "ページ名,about/company.html",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								},
+								"extra": {
+									"head": "記述例：名前とFileパス"
+								}
+							},
+							{
+								"type": "tag.p",
+								"attr": {
+									"class": "default",
+									"css": "default"
+								},
+								"data": "Fileパスのほか、http://からはじまるURLも記述できます。\n（その場合は、Baseパスは無視されます）"
+							},
+							{
+								"type": "tag.code",
+								"data": "http://www.your-server.co.jp/path/test.html",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								},
+								"extra": {
+									"head": "記述例：URLで指定"
+								}
+							}
+						],
+						"attr": {
+							"class": " _cms_replace",
+							"css": " _cms_replace",
+							"style": "",
+							"replaceID": "SE3",
+							"replaceTitle": "説明を入力"
+						}
+					},
+					{
+						"type": "tag.margin",
+						"data": "150px",
+						"attr": {
+							"css": "default",
+							"class": "default"
+						}
+					},
+					{
+						"type": "layout.div",
+						"data": [
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h2",
+									"main": {
+										"text": "画面解説",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default  line-b text-center",
+									"class": "default  line-b text-center"
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h3",
+									"main": {
+										"text": "基本画面",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default  black",
+									"class": "default  black"
+								}
+							},
+							{
+								"type": "tag.img",
+								"data": {
+									"img": "images/20161223_2350.png",
+									"link": null,
+									"isZoom": false,
+									"isLayoutMode": false,
+									"layout": {},
+									"onlyImgTag": false
+								},
+								"extra": {
+									"caption": "",
+									"width": "",
+									"margin": "",
+									"layout_width": ""
+								},
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.margin",
+								"data": "20px",
+								"attr": {
+									"css": "default",
+									"class": "default"
+								}
+							},
+							{
+								"type": "object.table",
+								"data": {
+									"setting": {
+										"texts": {
+											"row1": "",
+											"col1": "1",
+											"wides": "20%,*,*,*,*",
+											"_state": [
+												"row1"
+											]
+										},
+										"grid": []
+									},
+									"table": {
+										"texts": {},
+										"grid": [
+											{
+												"publicData": "1",
+												"c1": "グループタブ",
+												"_state": [
+													"c2"
+												],
+												"c2": "グループをタブで切り替えます。\nグループ以外にも、すべてタブがあり、グループに関係なく登録したページ一覧を表示できます。"
+											},
+											{
+												"publicData": "1",
+												"c1": "サイズプリセット",
+												"_state": [
+													"c2"
+												],
+												"c2": "サイズプリセットから選択できます。デフォルトでは、5種類のプリセットが登録されています。"
+											},
+											{
+												"publicData": "1",
+												"c1": "ページスクロール",
+												"_state": [
+													"c2"
+												],
+												"c2": "個々のページを、一斉にスクロールできます。"
+											},
+											{
+												"publicData": "1",
+												"c1": "サイズ調整パネル",
+												"_state": [
+													"c2"
+												],
+												"c2": "ここのページの、拡大率・幅・高さを設定できます。\n気にいった設定があれば、保存して、プリセットを更新できます。"
+											},
+											{
+												"publicData": "1",
+												"c1": "ページ",
+												"_state": [
+													"c2"
+												],
+												"c2": "プレビューするページです。下のボタンからページを選択し、拡大表示したり、非表示や、リロード、別ウィンドウ表示などの操作ができます。"
+											}
+										],
+										"_state": {
+											"currentRow": 4,
+											"currentPage": 0,
+											"fitWide": true,
+											"hideCols": ""
+										}
+									},
+									"cols": {
+										"texts": {
+											"wides": "30%,*,*,*,*"
+										},
+										"grid": []
+									}
+								},
+								"attr": {
+									"css": "default w100p",
+									"style": "",
+									"class": "default w100p"
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h3",
+									"main": {
+										"text": "拡大表示",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default  black",
+									"class": "default  black"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "ページを選択すると、ページを拡大表示できます。",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.img",
+								"data": {
+									"img": "images/20161223_235_01.png",
+									"link": null,
+									"isZoom": false,
+									"isLayoutMode": false,
+									"layout": {},
+									"onlyImgTag": false
+								},
+								"extra": {
+									"caption": "",
+									"width": "",
+									"margin": "",
+									"layout_width": ""
+								},
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h3",
+									"main": {
+										"text": "リスト表示画面",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default  black",
+									"class": "default  black"
+								}
+							},
+							{
+								"type": "tag.p",
+								"data": "登録されているページのリストを表示します。\n個々のページリストの、右にチェックがあり、チェックを入れると、グループをまたいで、独自のページリストを定義できます。\nチェックしたあとは、保存・リロードすれば、タブが追加され、独自のページリストを表示できます。",
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							},
+							{
+								"type": "tag.img",
+								"data": {
+									"img": "images/20161223_235_02.png",
+									"link": null,
+									"isZoom": false,
+									"isLayoutMode": false,
+									"layout": {},
+									"onlyImgTag": false
+								},
+								"extra": {
+									"caption": "",
+									"width": "",
+									"margin": "",
+									"layout_width": ""
+								},
+								"attr": {
+									"css": "default ",
+									"class": "default "
+								}
+							}
+						],
+						"attr": {
+							"class": " _cms-p20",
+							"css": " _cms-p20",
+							"style": "",
+							"narrow": ""
+						},
+						"extra": {
+							"bg": {
+								"img": "",
+								"color": "",
+								"use": false
+							}
+						}
+					},
+					{
+						"type": "tag.margin",
+						"data": "150px",
+						"attr": {
+							"css": "default",
+							"class": "default"
+						}
+					},
+					{
+						"type": "layout.div",
+						"data": [
+							{
+								"type": "tag.heading",
+								"data": {
+									"heading": "h2",
+									"main": {
+										"text": "ライセンス・開発情報",
+										"link": null
+									},
+									"right": {
+										"text": "",
+										"link": null
+									}
+								},
+								"attr": {
+									"css": "default  line-b text-center",
+									"class": "default  line-b text-center"
+								}
+							},
+							{
+								"type": "layout.div",
+								"data": [
+									{
+										"type": "tag.heading",
+										"data": {
+											"heading": "h3",
+											"main": {
+												"text": "オープンソース ( MITライセンス ) です",
+												"link": null
+											},
+											"right": {
+												"text": "",
+												"link": null
+											}
+										},
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									},
+									{
+										"type": "tag.p",
+										"data": "商用利用・非商用利用を問わず、完全に無料で利用できます。",
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									},
+									{
+										"type": "tag.heading",
+										"data": {
+											"heading": "h3",
+											"main": {
+												"text": "ソースコードの入手",
+												"link": null
+											},
+											"right": {
+												"text": "",
+												"link": null
+											}
+										},
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									},
+									{
+										"type": "tag.p",
+										"data": "将来的には、GitHubなどでの公開を考えていますが、\n現時点では、ダウンロードページから取得できるデータが、ソースコードになります。\nミニファイ化などの難読処理は行ってないので、そのままソースコードを編集できます。",
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									},
+									{
+										"type": "tag.heading",
+										"data": {
+											"heading": "h3",
+											"main": {
+												"text": "免責",
+												"link": null
+											},
+											"right": {
+												"text": "",
+												"link": null
+											}
+										},
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									},
+									{
+										"type": "tag.p",
+										"data": "グリッドプレビューを使用することによって生じた損害・トラブル等に関しまして、株式会社ピクセルイメージは一切の賠償責任を負いかねますので、ご了承ください。",
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									},
+									{
+										"type": "tag.heading",
+										"data": {
+											"heading": "h3",
+											"main": {
+												"text": "開発の経緯",
+												"link": null
+											},
+											"right": {
+												"text": "",
+												"link": null
+											}
+										},
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									},
+									{
+										"type": "tag.p",
+										"data": "個人的なツールとして開発していたもので、\n2013年ごろから、つくりはじめました。\nサイト構築業務の中で、少しつづ機能追加、ブラッシュアップして、\nいい感じに仕上がってきたので、公開することにしました。",
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									},
+									{
+										"type": "tag.heading",
+										"data": {
+											"heading": "h3",
+											"main": {
+												"text": "質問や問い合わせなどについて",
+												"link": null
+											},
+											"right": {
+												"text": "",
+												"link": null
+											}
+										},
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									},
+									{
+										"type": "tag.p",
+										"data": "大阪北摂のウェブデザイン屋さんであるピクセルイメージが、\n請負業務の間に開発しています。\n\n不具合や不明点などあれば、\n開発者のピクセルイメージ田中 ( <a href=\"cms@pixelimage.jp\">cms@pixelimage.jp</a> ) にメール下さい。\n使用した感想や、要望などもいただけるとうれしいです。",
+										"attr": {
+											"css": "default ",
+											"class": "default "
+										}
+									},
+									{
+										"type": "tag.margin",
+										"data": "20px",
+										"attr": {
+											"css": "default",
+											"class": "default"
+										}
+									},
+									{
+										"type": "layout.div",
+										"data": [
+											{
+												"type": "tag.heading",
+												"data": {
+													"heading": "h3",
+													"main": {
+														"text": "宣伝",
+														"link": null
+													},
+													"right": {
+														"text": "",
+														"link": null
+													}
+												},
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											},
+											{
+												"type": "tag.heading",
+												"data": {
+													"heading": "h4",
+													"main": {
+														"text": "オープンソースのCMSもつくってます",
+														"link": null
+													},
+													"right": {
+														"text": "",
+														"link": null
+													}
+												},
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											},
+											{
+												"type": "tag.p",
+												"data": "JS CMSという、オープンソースのCMSもつくってます。\nWebデザイナー向け、完全無料の小〜中規模Webサイト向けCMSです。DBレスなのでFTPでアップするだけで簡単導入でき、 HTMLとCSSのみでカスタマイズ。オープンソース(MIT)なので制限なく自由に利用でき、今すぐ公開できます。\n\nこちらも個人的なツールから発展したものです。\nグリッドプレビューは、ちょっとした補助的なツールですが、こっちはわりと、本気でつくってるので、よかったら、こっちもチェックしてみてください。",
+												"attr": {
+													"css": "default ",
+													"class": "default "
+												}
+											},
+											{
+												"type": "tag.btn",
+												"data": {
+													"href": "http://www.js-cms.jp",
+													"target": "_blank",
+													"attr": "",
+													"text": "JS CMS -- 簡単・無料・国産のWebデザイナー向けCMS",
+													"class_": "cms-btn-text-box  cms-btn-size-ll  ",
+													"image": ""
+												},
+												"attr": {
+													"css": " text-center",
+													"class": " text-center"
+												}
+											}
+										],
+										"attr": {
+											"class": "default p40 glay",
+											"css": "default p40 glay",
+											"style": ""
+										},
+										"extra": {
+											"bg": {
+												"img": "",
+												"color": "",
+												"use": false
+											}
+										}
+									}
+								],
+								"attr": {
+									"class": "_inner-text",
+									"css": "_inner-text",
+									"style": ""
+								},
+								"extra": {
+									"bg": {
+										"img": "",
+										"color": "",
+										"use": false
+									}
+								}
+							}
+						],
+						"attr": {
+							"class": " _cms-p20",
+							"css": " _cms-p20",
+							"style": "",
+							"narrow": ""
+						},
+						"extra": {
+							"bg": {
+								"img": "",
+								"color": "",
+								"use": false
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+	"meta": {
+		"template": "default.html"
+	}
+}

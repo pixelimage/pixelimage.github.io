@@ -1,0 +1,16 @@
+/server/www.js-cms.jp.v4/www/grid/
+GRID
+
+//
+html/css/cms.css
+html/css/site.css
+html/js/site.js
+//
+html/_template/default.html
+html/_template/full.html
+html/_template/simple.html
+html/_template/wide.html
+html/_template/parts/footer.html
+html/_template/parts/head.html
+html/_template/parts/header_sp.html
+html/_template/parts/header.html
