@@ -53,27 +53,33 @@
 									{
 										"publicData": "1",
 										"id": "HEAD_TITLE",
-										"val": "株式会社サンプルサイト | {{PAGE_NAME}}",
-										"_state": [],
+										"val": "グリッドプレビュー | サイト制作者向けページプレビューツール ",
+										"_state": [
+											"val"
+										],
 										"memo": "HTMLヘッダの＜TITLE＞タグで使用。{{PAGE_NAME}}部分は、ページ情報タグです。各ページの名前に変更されます。"
 									},
 									{
 										"publicData": "1",
 										"id": "HEAD_KEYWORD",
-										"val": "サンプルの文書ですので、ご注意ください",
-										"_state": [],
+										"val": "グリッド",
+										"_state": [
+											"val"
+										],
 										"memo": "HTMLヘッダの＜META＞タグのkeywordで使用。"
 									},
 									{
 										"publicData": "1",
 										"id": "HEAD_DESCRIPTION",
-										"val": "サンプルの文書ですので、ご注意くださいサンプルの文書ですので、ご注意ください",
-										"_state": [],
+										"val": "ブラウザ画面内に、登録した複数のHTMLページを縮小し、グリッド上にならべて表示するウェブアプリです。",
+										"_state": [
+											"val"
+										],
 										"memo": "HTMLヘッダの＜META＞タグのdescriptionで使用。"
 									}
 								],
 								"_state": {
-									"currentRow": 2,
+									"currentRow": 1,
 									"currentPage": 0,
 									"fitWide": true,
 									"hideCols": ""
