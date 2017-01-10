@@ -15,7 +15,8 @@
 body{letter-spacing:0.05em;}
 
 #SocialArea{
-margin: 1em auto;padding: 1em;width:620px;
+margin: 1em auto;padding: 1em;width:700px;
+  border-bottom:1px solid #ddd;
 }
 
 
